@@ -1,0 +1,10 @@
+targetCustomizations:
+- name: prod
+  helm:
+    values:
+      serviceType: ClusterIP
+      replicas: 2
+      namespace: "vehicle2-ammysore"
+  clusterSelector:
+    matchLabels:
+      env: prod
