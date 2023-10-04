@@ -1,0 +1,9 @@
+targetCustomizations:
+- name: prod
+  helm:
+    values:
+      serviceType: ClusterIP
+      replicas: 2
+  clusterSelector:
+    matchLabels:
+      env: prod
