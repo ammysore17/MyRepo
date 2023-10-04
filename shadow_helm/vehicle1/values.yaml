@@ -1,4 +1,0 @@
-replication: true
-replicas: 1
-serviceType: NodePort
-namespace: vehicle1-ammysore
