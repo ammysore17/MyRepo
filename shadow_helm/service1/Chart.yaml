@@ -1,0 +1,5 @@
+apiVersion: v2
+name: serviec1
+description: service1 applications
+version: 0.0.0
+appVersion: 0.0.0
