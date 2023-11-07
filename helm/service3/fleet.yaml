@@ -1,6 +1,7 @@
+helm:
+  namespace: "${ .ClusterLabels.vehicleid }-service1"
 targetCustomizations:
 - name: prod
-  namespace: "${ .ClusterLabels.vehicleid }-service1"
   helm:
     values:
       serviceType: ClusterIP
