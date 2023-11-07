@@ -4,7 +4,7 @@ targetCustomizations:
     values:
       serviceType: ClusterIP
       replicas: 2
-      namespace: "${ .ClusterLabels.vehicleid }-service3"
+      namespace: "${ .ClusterLabels.vehicleid }-service1"
   clusterSelector:
     matchLabels:
       env: vehicle
