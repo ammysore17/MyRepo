@@ -1,5 +1,4 @@
-helm:
-  namespace: "vehicle1-service1"
+defaultNamespace: "vehicle1-service1"
 targetCustomizations:
 - name: prod
   helm:
