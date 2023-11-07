@@ -1,10 +1,11 @@
+defaultNamespace: "vehicle-serviceopt"
 targetCustomizations:
 - name: prod
   helm:
     values:
       serviceType: ClusterIP
       replicas: 2
-      namespace: "${ .ClusterLabels.vehicleid }-ammysore"
+      namespace: "${ .ClusterLabels.vehicleid }-service1"
   clusterSelector:
     matchLabels:
-      env: prod
+      env: vehicle
