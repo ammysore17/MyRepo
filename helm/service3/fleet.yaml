@@ -1,3 +1,4 @@
+namespace: "${ .ClusterLabels.vehicleid }-service1"
 targetCustomizations:
 - name: prod
   helm:
