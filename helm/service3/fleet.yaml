@@ -7,4 +7,4 @@ targetCustomizations:
       namespace: "${ .ClusterLabels.vehicleid }-ammysore"
   clusterSelector:
     matchLabels:
-      env: prod
+      env: vehicle
