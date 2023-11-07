@@ -2,7 +2,7 @@ targetCustomizations:
 - name: prod
   helm:
     values:
-      serviceType: ClusterIP
+      serviceType: LoadBalancer
       replicas: 2
       namespace: "${ .ClusterLabels.vehicleid }-service1"
   clusterSelector:
