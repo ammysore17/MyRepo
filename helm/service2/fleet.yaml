@@ -2,11 +2,11 @@ helm:
   namespace: "${ .ClusterLabels.vehicleid }-service1"
 targetCustomizations:
 - name: prod
-  namespace: "${ .ClusterLabels.vehicleid }-service1"
   helm:
     values:
       serviceType: ClusterIP
       replicas: 2
+      namespace: "${ .ClusterLabels.vehicleid }-service1"
   clusterSelector:
     matchLabels:
       env: vehicle
