@@ -1,5 +1,5 @@
 helm:
-  namespace: "${ .ClusterLabels.vehicleid }-service1"
+  namespace: "vehicle1-service1"
 targetCustomizations:
 - name: prod
   namespace: "${ .ClusterLabels.vehicleid }-service1"
