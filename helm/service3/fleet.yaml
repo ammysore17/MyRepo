@@ -1,4 +1,4 @@
-defaultNamespace: "${ .ClusterLabels.vehicleid }-service1"
+defaultNamespace: "vehicle-service1"
 targetCustomizations:
 - name: prod
   helm:
