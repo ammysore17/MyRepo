@@ -1,4 +1,6 @@
 defaultNamespace: "vehicle-service1"
+helm:
+  releaseName: service3
 targetCustomizations:
 - name: prod
   helm:
