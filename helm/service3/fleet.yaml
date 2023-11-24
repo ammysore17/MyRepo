@@ -1,4 +1,4 @@
-defaultNamespace: "vehicle-service1"
+defaultNamespace: "vehicle-service3"
 helm:
   releaseName: service3
 targetCustomizations:
