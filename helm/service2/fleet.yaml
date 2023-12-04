@@ -1,6 +1,6 @@
 defaultNamespace: "vehicle-service2"
 helm:
-  releaseName: "${ .ClusterLabels.vehicleid }-service2"
+  releaseName: ${ .ClusterLabels.vehicleid }-service2
 targetCustomizations:
 - name: prod
   helm:
