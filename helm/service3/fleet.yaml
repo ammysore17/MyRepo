@@ -9,4 +9,4 @@ targetCustomizations:
       namespace: "${ .ClusterLabels.vehicleid }-service1"
   clusterSelector:
     matchLabels:
-      env: vehicle
+      env: shadow
