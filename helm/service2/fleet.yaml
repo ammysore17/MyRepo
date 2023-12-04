@@ -1,5 +1,5 @@
 helm:
-  releaseName: service2
+  releaseName: ${ .ClusterLabels.vehicleid }-service2
 targetCustomizations:
 - name: prod
   helm:
